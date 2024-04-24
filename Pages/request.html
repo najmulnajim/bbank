@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>
+      Swapnosiri blood bank | A sister ngo of Swapnosiri youth welfare
+      organigation
+    </title>
+    <link
+      rel="shortcut icon"
+      href="../assets/images/fav.png"
+      type="image/x-icon"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Merriweather&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="../assets/images/blood-color-32.png" />
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../assets/css/fontawsom-all.min.css" />
+    <link
+      rel="stylesheet"
+      href="../assets/plugins/grid-gallery/css/grid-gallery.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="../style.css" />
+    <link rel="stylesheet" type="text/css" href="../css/register.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <div id="menu-jk" class="header-bottom">
+          <div class="container">
+            <div class="row nav-row">
+              <div class="col-md-3 logo">
+                <a href="../index.html"
+                  ><img src="../assets/images/web-logo.png" alt="logo"
+                /></a>
+              </div>
+              <div id="dynamicNav2" class="col-md-9 nav-col">
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main style="margin-bottom: 50px;">
+        <section class="vh-100 gradient-custom">
+            <div class="container py-5 h-100">
+              <div class="row justify-content-center align-items-center h-100">
+                <div class="col-12 col-lg-9 col-xl-7">
+                  <div class="card shadow-2-strong card-registration" style="border-radius: 15px;">
+                    <div class="card-body p-4 p-md-5">
+                      <h3 class="mb-4 pb-2 pb-md-0 mb-md-5">Request for Blood</h3>
+                      <form>
+               <!-- username & email  -->
+                        <div class="row">
+                          <div class="col-md-6 mb-4">
+          
+                            <div class="form-outline">
+                              <input type="text" id="name" class="form-control form-control-lg" placeholder="Patient Name"/>
+                            </div>
+          
+                          </div>
+                          <div class="col-md-6 mb-4">
+          
+                            <div class="form-outline">
+                              <input type="text" placeholder="Patient Email" id="email" class="form-control form-control-lg" />
+                            </div>
+          
+                          </div>
+                        </div>
+
+                        <!-- Location & phone no  -->
+                        <div class="row">
+                            <div class="col-md-6 mb-4 pb-2">
+            
+                                <div class="form-outline">
+                                    <input type="text" placeholder="Location" id="location" class="form-control form-control-lg" />
+                                  </div>
+            
+                            </div>
+                            <div class="col-md-6 mb-4 pb-2">
+            
+                              <div class="form-outline">
+                                <input type="tel" id="phone" class="form-control form-control-lg" placeholder="Phone Number"/>
+                              </div>
+            
+                            </div>
+                          </div>
+                        <!-- Disease -->
+                        <div class="row">
+                            <div class="col-md-6 mb-4 pb-2">
+                            <div class="form-outline">
+                                <input type="text" placeholder="Disease" id="disease" class="form-control form-control-lg" />
+                            </div>
+                            </div>
+                        </div>
+                        <button onclick="handleDonate()" type="button" class="btn btn-primary">Request</button>
+          
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+    </main>
+    
+    <!--*************** Footer  Starts Here *************** -->
+    <footer id="contact" class="container-fluid">
+      <div class="container">
+        <div class="row content-ro">
+          <div class="col-lg-4 col-md-12 footer-contact">
+            <h2>Contact Informatins</h2>
+            <div class="address-row">
+              <div class="icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="detail">
+                <p>Birgoan, Ramdubi Hat, Sadar, Dinajpur, Bangladesh</p>
+              </div>
+            </div>
+            <div class="address-row">
+              <div class="icon">
+                <i class="far fa-envelope"></i>
+              </div>
+              <div class="detail">
+                <p>
+                  sjksbd.bir@gmail.com <br />
+                  support@sjks.org.bd
+                </p>
+              </div>
+            </div>
+            <div class="address-row">
+              <div class="icon">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div class="detail">
+                <p>
+                  +88 01700000000 <br />
+                  +88 01700000000
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12 footer-links">
+            <div class="row no-margin mt-2">
+              <h2>Quick Links</h2>
+              <ul>
+                <li>Home</li>
+                <li>About Us</li>
+                <li>Contacts</li>
+                <li>Gallery</li>
+                <li>Features</li>
+              </ul>
+            </div>
+            <div class="row no-margin mt-1">
+              <h2 class="m-t-2">More Activities</h2>
+              <ul>
+                <li>Food Donation</li>
+                <li>Scholarship</li>
+                <li>Smart Event</li>
+                <li>Smart School</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12 footer-form">
+            <div class="form-card">
+              <div class="form-title">
+                <h4>Quick Message</h4>
+              </div>
+              <div class="form-body">
+                <input
+                  type="text"
+                  placeholder="Enter Name"
+                  class="form-control"
+                />
+                <input
+                  type="text"
+                  placeholder="Enter Mobile no"
+                  class="form-control"
+                />
+                <input
+                  type="text"
+                  placeholder="Enter Email Address"
+                  class="form-control"
+                />
+                <input
+                  type="text"
+                  placeholder="Your Message"
+                  class="form-control"
+                />
+                <button class="btn btn-sm btn-primary w-100">
+                  Send Message
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copy">
+          <div class="row">
+            <div class="col-lg-8 col-md-6">
+              <p>
+                Copyright © <a href="#">Blood.sjks.org.bd</a> | All right
+                reserved.
+              </p>
+            </div>
+            <div class="col-lg-4 col-md-6 socila-link">
+              <ul>
+                <li>
+                  <a><i class="fab fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a><i class="fab fa-github"></i></a>
+                </li>
+                <li>
+                  <a><i class="fab fa-linkedin"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+
+
+  <script src="../js/dynamicNav2.js"></script>
+  <script src="../js/handleDonate.js"></script>
+  <script src="../assets/js/jquery-3.2.1.min.js"></script>
+  <script src="../assets/js/popper.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/plugins/grid-gallery/js/grid-gallery.min.js"></script>
+  <script src="../assets/plugins/scroll-fixed/jquery-scrolltofixed-min.js"></script>
+  <script src="../assets/js/script.js"></script>
+</html>

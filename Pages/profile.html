@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>
+      Profile | Swapnosiri blood bank | A sister ngo of Swapnosiri youth welfare
+      organigation
+    </title>
+    <link rel="shortcut icon" href="../assets/images/fav.png" type="image/x-icon"/>
+    <link
+      href="https://fonts.googleapis.com/css?family=Merriweather&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="../assets/images/blood-color-32.png" />
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../assets/css/fontawsom-all.min.css" />
+    <link
+      rel="stylesheet"
+      href="../assets/plugins/grid-gallery/css/grid-gallery.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="../style.css" />
+    <link rel="stylesheet" type="text/css" href="../css/register.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <div id="menu-jk" class="header-bottom">
+          <div class="container">
+            <div class="row nav-row">
+              <div class="col-md-3 logo">
+                <a href="../index.html"
+                  ><img src="../assets/images/web-logo.png" alt="logo"
+                /></a>
+              </div>
+              <div id="dynamicNav2" class="col-md-9 nav-col">
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+
+    <section class="section-conten padding-y bg" style="margin-top: 50px;">
+        <div class="container">
+            <div class="row">
+            <aside class="col-md-3">
+                <!--   SIDEBAR   -->
+                <ul class="list-group">
+                    <a class="list-group-item" href="#">Donation History (upcoming)</a>
+                    <a class="list-group-item" href="{% url 'wishlist' %}"> Update Profile (upcoming) </a>
+                    <a class="list-group-item" href="#">Settings </a>
+                </ul>
+                <br>
+                <a class="btn btn-light btn-block" onclick="myLogout()"> <i class="fa fa-power-off"></i> <span class="text">Log out</span> </a> 
+                <!--   SIDEBAR .//END   -->
+            </aside>
+            <main class="col-md-9">
+                <div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-9">
+                                <div class="card user-card">
+                                    <div class="card-header">
+                                        <h5>Profile</h5>
+                                    </div>
+                                    <div id="userProfile">
+
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <article class="card">
+                <header class="card-header">
+                </header>
+                <div class="card-body">
+                    <div class="row"> 
+                        <div class="col-md-8">
+                            
+                        </div>
+                        <div class="col-md-4">
+                            
+                            
+                        </div>
+                    </div> <!-- row.// -->
+                </div> <!-- card-body .// -->
+                <div class="table-responsive">
+                <table class="table table-hover">
+                    
+                    
+                    
+                </table>
+                </div> <!-- table-responsive .end// -->
+                </article> <!-- order-group.// --> 
+            </main>
+        </div> <!-- row.// -->
+        </div>
+    </section>
+
+    <!-- <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card user-card">
+                    <div class="card-header">
+                        <h5>Profile</h5>
+                    </div>
+                    <div class="card-block">
+                        <div class="user-image">
+                            <img src="https://bootdey.com/img/Content/avatar/avatar7.png" class="img-radius" alt="User-Profile-Image">
+                        </div>
+                        <h6 class="f-w-600 m-t-25 m-b-10">Alessa Robert</h6>
+                        <p class="text-muted">Active | Male | Born 23.05.1992</p>
+                        <hr>
+                        <p class="text-muted m-t-15">Activity Level: 87%</p>
+                        <ul class="list-unstyled activity-leval">
+                            <li class="active"></li>
+                            <li class="active"></li>
+                            <li class="active"></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                        <div class="bg-c-blue counter-block m-t-10 p-20">
+                            <div class="row">
+                                <div class="col-4">
+                                    <i class="fa fa-comment"></i>
+                                    <p>1256</p>
+                                </div>
+                                <div class="col-4">
+                                    <i class="fa fa-user"></i>
+                                    <p>8562</p>
+                                </div>
+                                <div class="col-4">
+                                    <i class="fa fa-suitcase"></i>
+                                    <p>189</p>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="m-t-15 text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <hr>
+                        <div class="row justify-content-center user-social-link">
+                            <div class="col-auto"><a href="#!"><i class="fa fa-facebook text-facebook"></i></a></div>
+                            <div class="col-auto"><a href="#!"><i class="fa fa-twitter text-twitter"></i></a></div>
+                            <div class="col-auto"><a href="#!"><i class="fa fa-dribbble text-dribbble"></i></a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+
+    <!--*************** Footer  Starts Here *************** -->
+    <footer id="contact" class="container-fluid">
+      <div class="container">
+        <div class="row content-ro">
+          <div class="col-lg-4 col-md-12 footer-contact">
+            <h2>Contact Informatins</h2>
+            <div class="address-row">
+              <div class="icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="detail">
+                <p>Birgoan, Ramdubi Hat, Sadar, Dinajpur, Bangladesh</p>
+              </div>
+            </div>
+            <div class="address-row">
+              <div class="icon">
+                <i class="far fa-envelope"></i>
+              </div>
+              <div class="detail">
+                <p>
+                  sjksbd.bir@gmail.com <br />
+                  support@sjks.org.bd
+                </p>
+              </div>
+            </div>
+            <div class="address-row">
+              <div class="icon">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div class="detail">
+                <p>
+                  +88 01700000000 <br />
+                  +88 01700000000
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12 footer-links">
+            <div class="row no-margin mt-2">
+              <h2>Quick Links</h2>
+              <ul>
+                <li>Home</li>
+                <li>About Us</li>
+                <li>Contacts</li>
+                <li>Gallery</li>
+                <li>Features</li>
+              </ul>
+            </div>
+            <div class="row no-margin mt-1">
+              <h2 class="m-t-2">More Activities</h2>
+              <ul>
+                <li>Food Donation</li>
+                <li>Scholarship</li>
+                <li>Smart Event</li>
+                <li>Smart School</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12 footer-form">
+            <div class="form-card">
+              <div class="form-title">
+                <h4>Quick Message</h4>
+              </div>
+              <div class="form-body">
+                <input
+                  type="text"
+                  placeholder="Enter Name"
+                  class="form-control"
+                />
+                <input
+                  type="text"
+                  placeholder="Enter Mobile no"
+                  class="form-control"
+                />
+                <input
+                  type="text"
+                  placeholder="Enter Email Address"
+                  class="form-control"
+                />
+                <input
+                  type="text"
+                  placeholder="Your Message"
+                  class="form-control"
+                />
+                <button class="btn btn-sm btn-primary w-100">
+                  Send Message
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copy">
+          <div class="row">
+            <div class="col-lg-8 col-md-6">
+              <p>
+                Copyright © <a href="#">Blood.sjks.org.bd</a> | All right
+                reserved.
+              </p>
+            </div>
+            <div class="col-lg-4 col-md-6 socila-link">
+              <ul>
+                <li>
+                  <a><i class="fab fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a><i class="fab fa-github"></i></a>
+                </li>
+                <li>
+                  <a><i class="fab fa-linkedin"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+
+
+  <script src="../js/dynamicNav2.js"></script>
+  <script src="../js/profile.js"></script>
+  <script src="../js/logout.js"></script>
+  <!-- <script src="./app.js"></script> -->
+  <script src="../assets/js/jquery-3.2.1.min.js"></script>
+  <script src="../assets/js/popper.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/plugins/grid-gallery/js/grid-gallery.min.js"></script>
+  <script src="../assets/plugins/scroll-fixed/jquery-scrolltofixed-min.js"></script>
+  <script src="../assets/js/script.js"></script>
+</html>

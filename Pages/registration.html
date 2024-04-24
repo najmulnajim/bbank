@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>
+      Register | Swapnosiri blood bank | A sister ngo of Swapnosiri youth welfare
+      organigation
+    </title>
+    <link
+      rel="shortcut icon"
+      href="../assets/images/fav.png"
+      type="image/x-icon"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Merriweather&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="../assets/images/blood-color-32.png" />
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../assets/css/fontawsom-all.min.css" />
+    <link
+      rel="stylesheet"
+      href="../assets/plugins/grid-gallery/css/grid-gallery.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="../style.css" />
+    <link rel="stylesheet" type="text/css" href="../css/register.css" />
+  </head>
+
+  <body>
+    
+    <header>
+      <nav>
+        <div id="menu-jk" class="header-bottom">
+          <div class="container">
+            <div class="row nav-row">
+              <div class="col-md-3 logo">
+                <a href="../index.html"
+                  ><img src="../assets/images/web-logo.png" alt="logo"
+                /></a>
+              </div>
+              <div id="dynamicNav2" class="col-md-9 nav-col">
+    </header>
+    <main style="margin-bottom: 50px;">
+        <section class="vh-100 gradient-custom">
+            <div class="container py-5 h-100">
+              <div class="row justify-content-center align-items-center h-100">
+                <div class="col-12 col-lg-9 col-xl-7">
+                  <div class="card shadow-2-strong card-registration" style="border-radius: 15px;">
+                    <div class="card-body p-4 p-md-5">
+                      <h3 class="mb-4 pb-2 pb-md-0 mb-md-5">Registration Form</h3>
+
+
+
+                      <form id="registrationForm" >
+               <!-- username & email  -->
+                        <div class="row">
+                          <!-- <div class="col-md-6 mb-4">
+          
+                            <div class="form-outline">
+                              <input type="text" id="username" class="form-control form-control-lg" placeholder="Username"/>
+                            </div>
+          
+                          </div> -->
+                          <div class="col-md-8 mb-4">
+                            <label class="form-label select-label" for="">E-mail:</label>
+                            <div class="form-outline">
+                              <input type="email" placeholder="Email" id="email" name="email" class="form-control form-control-lg" required/>
+                            </div>
+          
+                          </div>
+                        </div>
+                        <!-- first name & last name  -->
+                        <div class="row">
+                          <div class="col-md-6 mb-4">
+                            <label class="form-label select-label" for="">First Name:</label>
+                            <div class="form-outline">
+                              <input type="text" id="firstName" name="first_name" class="form-control form-control-lg" placeholder="First Name" required/>
+                            </div>
+          
+                          </div>
+                          <div class="col-md-6 mb-4">
+                            <label class="form-label select-label" for="">Last Name:</label>
+                            <div class="form-outline">
+                              <input type="text" placeholder="Last Name" id="lastName" name="last_name" class="form-control form-control-lg" required/>
+                            </div>
+          
+                          </div>
+                        </div>
+                        <!-- password  -->
+                        <div class="row">
+                          <div class="col-md-6 mb-4">
+                            <label class="form-label select-label" for="">Password:</label>
+                            <div class="form-outline">
+                              <input type="password" id="password" name="password" class="form-control form-control-lg" placeholder="Password" required/>
+                            </div>
+          
+                          </div>
+                          <div class="col-md-6 mb-4">
+                            <label class="form-label select-label" for="">Confirm Password:</label>
+                            <div class="form-outline">
+                              <input type="password" placeholder="Confirm Password" id="password2" name="confirm_password" class="form-control form-control-lg" required/>
+                            </div>
+          
+                          </div>
+                        </div>
+                        <!-- Birthday & phone no  -->
+                        <div class="row">
+                            <div class="col-md-6 mb-4 pb-2">
+                              <label class="form-label select-label" for="">Birth Date</label>
+                              <div class="form-outline datepicker w-100">
+                                  <input type="date" placeholder="Birthday" class="form-control form-control-lg" id="birthdayDate" name="birth_date" required/>
+                                  
+                                </div>
+            
+                            </div>
+                            <div class="col-md-6 mb-4 pb-2">
+                              <label class="form-label select-label" for="">Mobile No:</label>
+            
+                              <div class="form-outline">
+                                <input type="tel" id="phoneNumber" name="phone" class="form-control form-control-lg" placeholder="Phone Number" required/>
+                              </div>
+            
+                            </div>
+                          </div>
+          <!-- Gender -->
+                        <div class="row">
+                          
+                        <div class="col-md-6 mb-4">
+        
+                          <h6 class="mb-2 pb-1">Gender: </h6>
+
+                          <div class="form-check form-check-inline">
+                              <input class="form-check-input" type="radio" name="gender" checked id="maleGender"
+                                value="male" />
+                                <label class="form-check-label" for="maleGender">Male</label>
+                            </div>
+        
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="gender" id="femaleGender"
+                              value="female" />
+                              <label class="form-check-label" for="femaleGender">Female</label>
+                            
+                          </div>
+        
+                          
+                        </div>
+                          <div class="col-6">
+                            <label class="form-label select-label">Select Blood Group</label><br/>
+                            <select id="blood_group" name="blood_group" class="select form-control-lg" placeholder="Select Division" required>
+                              <option value=1 >A+</option>
+                              <option value="2">A-</option>
+                              <option value="3">B+</option>
+                              <option value="4">B-</option>
+                              <option value="5" >AB+</option>
+                              <option value="6">AB-</option>
+                              <option value="7">O+</option>
+                              <option value="8">O-</option>
+                            </select>
+                            </div>
+                        </div>
+          
+                        
+          <!-- division and District  -->
+                        <div  class="row">
+                           <div  class="col-6">
+                                <label class="form-label select-label">Select Division</label><br/>
+                                <select id="divisions" name="division" class="select form-control-lg" placeholder="Select Division" required>
+                                </select>
+                          </div> 
+                          <div class="col-6">
+                                <label class="form-label select-label">Select District</label><br/>
+                                <select id=districts name="District" class="select form-control-lg" placeholder="Select District" required>
+                                </select>
+                          </div>
+                        </div>
+
+                        <!-- input image  -->
+                        <div  class="row mt-4">
+                           <div  class="col-6">
+                                <label class="form-label select-label">Upload your photo</label><br/>
+                                <input type="file" name="image" id="image">
+                          </div>
+
+                          <div class="col-md-6 ">
+                            <label class="form-label select-label" for="">Last Donate</label>
+                            <div class="form-outline datepicker w-100">
+                                <input type="date" placeholder="Last Donation" class="form-control form-control-lg" id="last_donate" name="last_donate" required/>
+                                
+                              </div>
+          
+                          </div>
+                          
+                        </div>
+          
+                        <div class="mt-4 pt-2">
+                          
+                          <button onclick="registerUser()" type="button" class="btn btn-primary">Register</button>
+                        </div>
+
+                        <div class="mt-2">
+                          <span >Already have an accout? <a href="./login.html" style="color:blue">Login Here</a></span>
+                      </div>
+          
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+    </main>
+
+
+
+
+
+
+
+    <!--*************** Footer  Starts Here *************** -->
+    <footer id="contact" class="container-fluid">
+      <div class="container">
+        <div class="row content-ro">
+          <div class="col-lg-4 col-md-12 footer-contact">
+            <h2>Contact Informatins</h2>
+            <div class="address-row">
+              <div class="icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="detail">
+                <p>Birgoan, Ramdubi Hat, Sadar, Dinajpur, Bangladesh</p>
+              </div>
+            </div>
+            <div class="address-row">
+              <div class="icon">
+                <i class="far fa-envelope"></i>
+              </div>
+              <div class="detail">
+                <p>
+                  sjksbd.bir@gmail.com <br />
+                  support@sjks.org.bd
+                </p>
+              </div>
+            </div>
+            <div class="address-row">
+              <div class="icon">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div class="detail">
+                <p>
+                  +88 01700000000 <br />
+                  +88 01700000000
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12 footer-links">
+            <div class="row no-margin mt-2">
+              <h2>Quick Links</h2>
+              <ul>
+                <li>Home</li>
+                <li>About Us</li>
+                <li>Contacts</li>
+                <li>Gallery</li>
+                <li>Features</li>
+              </ul>
+            </div>
+            <div class="row no-margin mt-1">
+              <h2 class="m-t-2">More Activities</h2>
+              <ul>
+                <li>Food Donation</li>
+                <li>Scholarship</li>
+                <li>Smart Event</li>
+                <li>Smart School</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12 footer-form">
+            <div class="form-card">
+              <div class="form-title">
+                <h4>Quick Message</h4>
+              </div>
+              <div class="form-body">
+                <input
+                  type="text"
+                  placeholder="Enter Name"
+                  class="form-control"
+                />
+                <input
+                  type="text"
+                  placeholder="Enter Mobile no"
+                  class="form-control"
+                />
+                <input
+                  type="text"
+                  placeholder="Enter Email Address"
+                  class="form-control"
+                />
+                <input
+                  type="text"
+                  placeholder="Your Message"
+                  class="form-control"
+                />
+                <button class="btn btn-sm btn-primary w-100">
+                  Send Message
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copy">
+          <div class="row">
+            <div class="col-lg-8 col-md-6">
+              <p>
+                Copyright © <a href="#">Blood.sjks.org.bd</a> | All right
+                reserved.
+              </p>
+            </div>
+            <div class="col-lg-4 col-md-6 socila-link">
+              <ul>
+                <li>
+                  <a><i class="fab fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a><i class="fab fa-github"></i></a>
+                </li>
+                <li>
+                  <a><i class="fab fa-linkedin"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="../js/dynamicNav2.js"></script>
+  <script src="../js/register.js"></script>
+  <script src="../js/login.js"></script>
+  <script src="../js/logout.js"></script>
+  <!-- <script src="./app.js"></script> -->
+  <script src="../assets/js/jquery-3.2.1.min.js"></script>
+  <script src="../assets/js/popper.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/plugins/grid-gallery/js/grid-gallery.min.js"></script>
+  <script src="../assets/plugins/scroll-fixed/jquery-scrolltofixed-min.js"></script>
+  <script src="../assets/js/script.js"></script>
+</html>
